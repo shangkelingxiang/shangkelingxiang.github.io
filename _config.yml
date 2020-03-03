@@ -1,14 +1,14 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Peter Wu
 subtitle: ''
 description: ''
 keywords:
 author: Peter Wu
-language: zh-Hans
+language: zh-CN
 timezone: ''
 
 # URL
@@ -29,14 +29,15 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
+- README.md
+ - 404.html
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
+  enable: false # Open external links in new tab
+  field: post # Apply to the whole site
   exclude: ''
 filename_case: 0
 render_drafts: false
@@ -98,3 +99,20 @@ deploy:
   type: 'git'
   repository: https://github.com/shangkelingxiang/shangkelingxiang.github.io.git
   branch: master
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Fireworks
+fireworks: true
+
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  

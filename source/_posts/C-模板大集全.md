@@ -2,9 +2,10 @@
 title: C++模板大集全
 date: 2019-12-03 16:56:33
 tags:
+password: Cindy
 ---
 # P3378 【模板】堆
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 priority_queue<int>q;
@@ -22,7 +23,7 @@ int main()
 }
 ```
 # P3385 【模板】负环
-```
+```cpp
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -115,7 +116,7 @@ int main()
 }
 ```
 # P3865 【模板】ST表
-```
+```cpp
 #include<bits/stdc++.h>
 #define maxn 100010
 using namespace std;
@@ -142,7 +143,7 @@ int main()
 }
 ```
 # P2197 【模板】nim游戏
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int T;
@@ -162,7 +163,7 @@ int main()
 }
 ```
 # P3367 【模板】并查集
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int fa[10001],n,m,k,x,y;
@@ -189,7 +190,7 @@ int main()
 }
 ```
 # P3811 【模板】乘法逆元
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 long long n,p,inv[3000001];
@@ -205,7 +206,7 @@ int main()
 
 ```
 # P1177 【模板】快速排序
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int a[100001];
